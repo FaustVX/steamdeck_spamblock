@@ -118,6 +118,21 @@ startpage.com##.image-container:has(div.image-quick-details span:has-text(ggreco
 startpage.com##.w-gl__result:has(a[href*="ggrecon.com"])
 www.google.*##.g:has(a[href*="ggrecon.com"])
 www.google.*##a[href*="ggrecon.com"]:upward(1)
+bing.com###b_content a[href*="gizchina.com"]:upward(li)
+bing.com##a.biglogo_link[href*="gizchina.com"]:upward(6)
+duckduckgo.com##.tile-wrap a[href*="gizchina.com"]:upward(.tile)
+duckduckgo.com##a[data-testid="result-title-a"][href*="gizchina.com"]:upward(.nrn-react-div)
+html.duckduckgo.com##.results a.result__a[href*="gizchina.com"]:upward(.result)
+lite.duckduckgo.com##.result-link[href*="gizchina.com"]:upward(tr)
+lite.duckduckgo.com##.result-link[href*="gizchina.com"]:upward(tr) + tr
+lite.duckduckgo.com##.result-link[href*="gizchina.com"]:upward(tr) + tr + tr
+lite.duckduckgo.com##.result-link[href*="gizchina.com"]:upward(tr) + tr + tr + tr
+search.brave.com###img-results a[href*="gizchina.com"]:upward([id^="img"])
+search.brave.com###results a[href*="gizchina.com"]:upward(.card)
+startpage.com##.image-container:has(div.image-quick-details span:has-text(gizchina.com))
+startpage.com##.w-gl__result:has(a[href*="gizchina.com"])
+www.google.*##.g:has(a[href*="gizchina.com"])
+www.google.*##a[href*="gizchina.com"]:upward(1)
 bing.com###b_content a[href*="thedroidguy.com"]:upward(li)
 bing.com##a.biglogo_link[href*="thedroidguy.com"]:upward(6)
 duckduckgo.com##.tile-wrap a[href*="thedroidguy.com"]:upward(.tile)
@@ -148,3 +163,18 @@ startpage.com##.image-container:has(div.image-quick-details span:has-text(thesun
 startpage.com##.w-gl__result:has(a[href*="thesun.co.uk"])
 www.google.*##.g:has(a[href*="thesun.co.uk"])
 www.google.*##a[href*="thesun.co.uk"]:upward(1)
+bing.com###b_content a[href*="example.com"]:upward(li)
+bing.com##a.biglogo_link[href*="example.com"]:upward(6)
+duckduckgo.com##.tile-wrap a[href*="example.com"]:upward(.tile)
+duckduckgo.com##a[data-testid="result-title-a"][href*="example.com"]:upward(.nrn-react-div)
+html.duckduckgo.com##.results a.result__a[href*="example.com"]:upward(.result)
+lite.duckduckgo.com##.result-link[href*="example.com"]:upward(tr)
+lite.duckduckgo.com##.result-link[href*="example.com"]:upward(tr) + tr
+lite.duckduckgo.com##.result-link[href*="example.com"]:upward(tr) + tr + tr
+lite.duckduckgo.com##.result-link[href*="example.com"]:upward(tr) + tr + tr + tr
+search.brave.com###img-results a[href*="example.com"]:upward([id^="img"])
+search.brave.com###results a[href*="example.com"]:upward(.card)
+startpage.com##.image-container:has(div.image-quick-details span:has-text(example.com))
+startpage.com##.w-gl__result:has(a[href*="example.com"])
+www.google.*##.g:has(a[href*="example.com"])
+www.google.*##a[href*="example.com"]:upward(1)
